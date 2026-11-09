@@ -26,8 +26,8 @@ results/spend.txt
 # Full run transcripts (~158 MB); available on request, see README
 results/raw/
 
-# Build intermediates (report.pdf is kept)
-report/report.html
+# Report folder (sources, build script, PDF)
+report/
 
 # OS / editor
 .DS_Store
