@@ -1,0 +1,36 @@
+# Secrets
+.env
+
+# Python / tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Agent / planning notes (not part of the published project)
+CLAUDE.md
+INSTRUCTIONS.md
+.claude/
+
+# API response cache (large; rebuilt by rerunning, costs money)
+cache/
+
+# Local run state and logs
+results/cost_ledger.json
+results/log_*.txt
+results/spend.txt
+# Full run transcripts (~158 MB); available on request, see README
+results/raw/
+
+# Build intermediates (report.pdf is kept)
+report/report.html
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

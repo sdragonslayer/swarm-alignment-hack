@@ -1,0 +1,26 @@
+[project]
+name = "badapple"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Siyuan", email = "sydu2021@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.6.0",
+    "matplotlib>=3.11.2",
+    "networkx>=3.7",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "markdown>=3.11.3",
+    "pytest>=9.2.0",
+]
